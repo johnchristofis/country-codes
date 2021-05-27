@@ -166,4 +166,13 @@ class CountryPlugin implements PluginInterface, EventSubscriberInterface
     {
         // no action required
     }
+
+	public function deactivate(Composer $composer, IOInterface $io)
+	{
+		// no action required
+	}
+	public function uninstall(Composer $composer, IOInterface $io)
+	{
+		// no action required
+	}
 }
